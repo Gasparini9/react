@@ -211,7 +211,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 400px) and (max-width: 768px) {
   .app {
     padding: 4rem 1rem;
   }
@@ -230,21 +230,30 @@ h1 {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 768px){
     .app {
-      padding: 2rem 1rem;
+        padding: 4rem 1rem;
+        max-width: 1500px;
+        margin: auto;
     }
   
     h1 {
-      font-size: 2rem;
+        font-size: 2rem;
     }
   
     .container {
-      margin-top: 2rem;
+        margin-top: 2rem;        
     }
   
     .movie {
-      width: "50%";
-      margin: 1rem;
+        width: "100%";
+        margin: 1rem;   
+    }
+    
+    .testandodiv {
+        display: inline-block;
+        
+        
+        
     }
   }
